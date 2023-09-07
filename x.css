@@ -1,0 +1,120 @@
+* {padding: 0; margin: 0;}
+
+body{
+    background-color: #36454F;
+    margin-top: 25px;
+}
+
+header {
+    width: 900px; background-color: aliceblue; 
+    padding: 25px; 
+    margin: auto;
+    text-align: center;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h4{
+    width: 900px; background-color: aliceblue; 
+    margin: auto;
+    text-align: center;
+    color: blue;
+}
+
+.bold {
+color: black;
+font-style: italic;
+font-size: 25px;
+}
+
+menu {
+    width: 900px; background-color: #000;
+    margin: auto;
+    padding: 25px;
+    
+}
+
+menu a {
+    color:beige;
+    text-decoration: none;
+    margin: 10px 15px 10px 10px;
+}
+
+.tugas{
+    color:red;
+    text-decoration: none;
+    margin: 10px 15px 10px 10px;
+    font-size: 20px;
+}
+
+menu a:hover{
+    color: #39FF14;
+    text-decoration: underline;
+}
+
+.tugas:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+article {
+    width: 900px;
+    background-color: aliceblue;
+    margin: auto;
+    padding: 25px;
+}
+
+article img {
+    float:left;
+    width: 350px; height: 250px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+.img2 {
+    float:right;
+    width: 350px; height: 250px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+article h1 {
+    margin: 0 0 10px 0;
+}
+
+article p {
+    margin: 0 0 25px 0;
+    text-align: justify;
+}
+
+.center {
+    margin: 0 0 25px 0;
+    color: rgb(255, 153, 0);
+    text-align:center;
+    font-size: 25px;
+    font-style: bold;
+}
+
+.cen {
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+    font-style: bold;
+}
+
+.last {
+    text-align: center;
+    background-color: blue;
+    margin: 25px;
+    padding: 25px;
+    color: aliceblue;
+}
+
+footer {
+    width: 920px;
+    padding: 15px;
+    margin: auto;
+    background-color:antiquewhite;
+    color:black;
+    text-align: center;
+}
